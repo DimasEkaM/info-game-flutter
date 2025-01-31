@@ -1,5 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:my_flutter_app/repository/game_repository.dart';
+import 'package:my_flutter_app/repository/models/result.dart';
 
 part 'games_by_category_event.dart';
 part 'games_by_category_state.dart';

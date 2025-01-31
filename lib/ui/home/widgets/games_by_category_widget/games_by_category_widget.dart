@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:my_flutter_app/ui/home/widgets/error_widget.dart';
 import 'package:my_flutter_app/ui/home/widgets/games_by_category_widget/bloc/games_by_category_bloc.dart';
 import 'package:my_flutter_app/ui/home/widgets/games_by_category_widget/games_by_category_success_widget.dart';
 

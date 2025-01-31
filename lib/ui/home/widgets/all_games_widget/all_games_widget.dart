@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_flutter_app/ui/home/widgets/all_games_widget/all_games_success_widget.dart';
 import 'package:my_flutter_app/ui/home/widgets/all_games_widget/bloc/all_games_bloc.dart';
+import 'package:my_flutter_app/ui/home/widgets/error_widget.dart';
 
 class AllGamesWidget extends StatelessWidget {
   const AllGamesWidget({super.key, required this.title});
