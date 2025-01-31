@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 class AllGamesItemImage extends StatelessWidget {
   const AllGamesItemImage({
-    Key? key,
+    super.key,
     required this.backgroundImage,
-  }) : super(key: key);
+  });
   final String backgroundImage;
   @override
   Widget build(BuildContext context) {

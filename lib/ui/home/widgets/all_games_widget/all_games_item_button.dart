@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class AllGamesItemButton extends StatelessWidget {
   const AllGamesItemButton({
-    Key? key,
+    super.key,
     required this.callback,
-  }) : super(key: key);
+  });
   final VoidCallback callback;
   @override
   Widget build(BuildContext context) {

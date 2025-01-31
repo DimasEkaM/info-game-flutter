@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HeaderTitle extends StatelessWidget {
-  const HeaderTitle({Key? key}) : super(key: key);
+  const HeaderTitle({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class HeaderTitle extends StatelessWidget {
         Column(
           children: [
             Text(
-              'Welcome Ana 👋',
+              'Welcome Dimz 👋',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25.0,

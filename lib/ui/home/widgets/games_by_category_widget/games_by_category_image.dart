@@ -4,10 +4,10 @@ import 'package:my_flutter_app/ui/home/widgets/games_by_category_widget/games_by
 
 class GameByCategoryImage extends StatelessWidget {
   const GameByCategoryImage({
-    Key? key,
+    super.key,
     required this.name,
     required this.backgroundImage,
-  }) : super(key: key);
+  });
 
   final String name;
   final String backgroundImage;

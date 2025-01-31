@@ -6,9 +6,9 @@ import 'package:my_flutter_app/ui/home/widgets/all_games_widget/all_games_item_r
 
 class AllGamesItem extends StatelessWidget {
   const AllGamesItem({
-    Key? key,
+    super.key,
     required this.game,
-  }) : super(key: key);
+  });
 
   final Result game;
 
@@ -33,7 +33,7 @@ class AllGamesItem extends StatelessWidget {
           Positioned(
             top: 25.0,
             left: 100.0,
-            child: Container(
+            child: SizedBox(
               width: MediaQuery.of(context).size.width * .5,
               child: Text(
                 game.name ?? '',

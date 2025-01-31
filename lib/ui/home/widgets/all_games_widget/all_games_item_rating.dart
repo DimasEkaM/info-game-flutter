@@ -3,9 +3,9 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class AllGamesItemRating extends StatelessWidget {
   const AllGamesItemRating({
-    Key? key,
+    super.key,
     required this.rating,
-  }) : super(key: key);
+  });
   final double rating;
   @override
   Widget build(BuildContext context) {

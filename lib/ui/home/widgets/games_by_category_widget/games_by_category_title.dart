@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class GameByCategoryTitle extends StatelessWidget {
   const GameByCategoryTitle({
-    Key? key,
+    super.key,
     required this.name,
-  }) : super(key: key);
+  });
 
   final String name;
 
