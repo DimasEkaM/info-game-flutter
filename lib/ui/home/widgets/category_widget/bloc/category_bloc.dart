@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:infogames/repository/game_repository.dart';
-import 'package:infogames/repository/models/model_barrel.dart';
+import 'package:my_flutter_app/repository/game_repository.dart';
+import 'package:my_flutter_app/repository/models/genre.dart';
 
 part 'category_event.dart';
 part 'category_state.dart';

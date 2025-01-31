@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:my_flutter_app/repository/models/genre.dart';
 import 'package:my_flutter_app/ui/home/widgets/category_widget/bloc/category_bloc.dart';
 import 'package:my_flutter_app/ui/home/widgets/category_widget/category_item.dart';
 import 'package:my_flutter_app/ui/home/widgets/games_by_category_widget/bloc/games_by_category_bloc.dart';

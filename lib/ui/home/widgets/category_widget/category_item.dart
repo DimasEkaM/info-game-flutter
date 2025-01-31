@@ -8,8 +8,8 @@ typedef CategoryCLicked = Function(Genre categorySelected);
 class CategoryItem extends StatelessWidget {
   const CategoryItem(
       {super.key,
-      required category,
-      required Null Function(dynamic categorySelected) callback});
+      required this.category,
+      required this.callback});
 
   final Genre category;
   final CategoryCLicked callback;
